@@ -17,9 +17,8 @@ description: |
 <a href="mailto:sozidanie.org.ua@gmail.com">письма</a>.
 
 {% if paginator.posts %}
-
   <hr/>
-
+  <div itemscope="" itemtype="http://schema.org/Blog">
   {% for post in paginator.posts %}
     <p>
       <time itemprop="datePublished dateModified" datetime="{{ post.date | date_to_xmlschema }}">
@@ -42,12 +41,13 @@ description: |
         {{ post.date | date: "%Y" }}
       </time>
       <br/>
-      <strong>{{ post.title }}</strong>
+      <strong itemprop="name headline mainEntityOfPage">{{ post.title }}</strong>
       <br/>
       <!-- {{ post.excerpt }}<br/> -->
-      <a href="{{ post.url | prepend: site.baseurl }}">Обсудить...</a>
+      <a href="{{ post.url | prepend: site.baseurl }}" itemprop="url">Обсудить...</a>
     </p>
   {% endfor %}
+  </div>
 {% endif %}
 
 {% if paginator.total_pages > 1 %}

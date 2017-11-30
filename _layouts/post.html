@@ -2,4 +2,31 @@
 layout: default
 ---
 
-<div>{{ content }}</div>
+<div>
+  <h1>{{ page.title }}</h1>
+  <div>{{ content }}</div>
+</div>
+
+<div role="complementary">
+  <div id="disqus_thread" class="disqus-thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = document.location.href.split('?')[0].split('#')[0];
+      this.page.identifier = this.page.url;
+    };
+    (function() {
+      var d = document, s = d.createElement('script');
+      s.src = '//sozidanie.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>
+    <div>
+      <p class="red">
+        JavaScript отключен у Вас в броузере, поэтому Вы не видите
+        комментарии, оставленные читателями к этой статье.
+      </p>
+    </div>
+  </noscript>
+</div>
