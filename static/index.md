@@ -10,7 +10,7 @@ description: |
 Это политическое движение за лучшую жизнь в Украине.
 Прочтите нашу
 [программу](program.html),
-подписывайтесь и читайте нас в
+подпишитесь и читайте нас в
 [Facebook](https://www.facebook.com/sozidanie.org.ua)
 и
 [Twitter](https://twitter.com/sozidanieorgua);
