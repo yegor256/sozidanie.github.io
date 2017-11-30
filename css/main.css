@@ -1,0 +1,11 @@
+* {
+  font-size: 20px;
+}
+p {
+  margin: .5em 0;
+}
+section {
+  text-align: center;
+  width: 30em;
+  padding: 1em;
+}

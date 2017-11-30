@@ -1,0 +1,39 @@
+title: Созидание
+email: sozidanie.org.ua@gmail.com
+description: >
+  Украинское политическое движение за лучшую жизнь.
+baseurl: ""
+url: "http://www.sozidanie.org.ua"
+twitter_username: sozidanieorgua
+markdown: kramdown
+author:
+  name: "Политсовет"
+  email: sozidanie.org.ua@gmail.com
+encoding: utf-8
+timezone: Europe/Ukraine
+permalink: :year/:month/:day/:title.html
+exclude:
+  - README.md
+  - Gemfile.lock
+  - Gemfile
+  - Rakefile
+  - LICENSE.txt
+
+gems:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+
+paginate: 8
+paginate_path: "p/:num"
+excerpt_separator: <!--more-->
+
+feed:
+  title: sozidanie.org.ua
+  subtitle: sozidanie.org.ua
+  path: rss.xml
+
+sass:
+  style: compressed
+  deploy_style: compressed
+  compile_in_place: false
