@@ -1,20 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru" xml:lang="ru" itemscope="" itemtype="http://schema.org/WebSite">
   <head>
     <meta charset="utf-8"/>
     <title>{{ page.title }}</title>
     <meta name="description" content="{{ page.description }}"/>
-    <meta name="keywords" content="политика, украина, коррупция, национализация, власть, право"/>
+    <meta name="keywords" content="политика, украина, коррупция, власть, право, выборы, партия, свобода, равенство, демократия"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="shortcut icon" href="/logo.png"/>
+    <link rel="shortcut icon" href="/images/logo.png"/>
     <link rel="stylesheet" href="http://cdn.rawgit.com/yegor256/tacit/gh-pages/tacit-css-1.1.1.min.css"/>
     <link rel="stylesheet" href="/css/main.css"/>
   </head>
   <body>
     <section>
-      <p><a href="/"><img src="/images/logo.svg" style="height:150px;" alt="sozidanie logo"/></a></p>
-      <h1>{{ page.title }}</h1>
-      {{ content }}
+      <header>
+        <p>
+          <a href="/">
+            <img src="/images/logo.svg" style="height:150px;" alt="sozidanie logo"/>
+          </a>
+        </p>
+      </header>
+      <h1><span>{{ page.title }}</span></h1>
+      <div>{{ content }}</div>
+      <footer>
+        &copy; 2017 "Созидание".
+        Все авторские права принадлежат авторам.
+      </footer>
     </section>
   </body>
 </html>

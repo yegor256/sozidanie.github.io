@@ -1,0 +1,75 @@
+---
+layout: static
+title: "Созидание"
+date: 2017-11-27
+description: |
+  Украинское политическое движение за лучшую жизнь.
+---
+
+Это политическое движение за лучшую жизнь в Украине.
+Прочтите нашу
+<a href="/program.html">программу</a>,
+подпишитесь и читайте нас в
+<a href="https://www.facebook.com/sozidanie.org.ua">Facebook</a>
+и
+<a href="https://twitter.com/sozidanieorgua">Twitter</a>;
+пишите нам
+<a href="mailto:sozidanie.org.ua@gmail.com">письма</a>.
+
+{% if paginator.posts %}
+
+  <hr/>
+
+  {% for post in paginator.posts %}
+    <p>
+      <time itemprop="datePublished dateModified" datetime="{{ post.date | date_to_xmlschema }}">
+        {% assign m = post.date | date: "%-m" %}
+        {{ post.date | date: "%-d" }}
+        {% case m %}
+          {% when '1' %}января
+          {% when '2' %}февраля
+          {% when '3' %}марта
+          {% when '4' %}апреля
+          {% when '5' %}мая
+          {% when '6' %}июня
+          {% when '7' %}июля
+          {% when '8' %}августа
+          {% when '9' %}сентября
+          {% when '10' %}октября
+          {% when '11' %}ноября
+          {% when '12' %}декабря
+        {% endcase %}
+        {{ post.date | date: "%Y" }}
+      </time>
+      <br/>
+      <strong>{{ post.title }}</strong>
+      <br/>
+      <!-- {{ post.excerpt }}<br/> -->
+      <a href="{{ post.url | prepend: site.baseurl }}">Обсудить...</a>
+    </p>
+  {% endfor %}
+{% endif %}
+
+{% if paginator.total_pages > 1 %}
+  <p style="text-align:center;">
+    {% if paginator.previous_page %}
+      {% if paginator.previous_page == 1 %}
+        <a href="/">&lt;&lt;</a>
+      {% else %}
+        <a href="/p/{{ paginator.previous_page }}">&lt;&lt;</a>
+      {% endif %}
+    {% else %}
+      <span class="mute">&lt;&lt;</span>
+    {% endif %}
+    стр.
+    {{ paginator.page }}
+    из
+    {{ paginator.total_pages }}
+    {% if paginator.next_page %}
+      <a href="/p/{{ paginator.next_page }}">&gt;&gt;</a>
+    {% else %}
+      <span class="mute">&gt;&gt;</span>
+    {% endif %}
+  </p>
+{% endif %}
+

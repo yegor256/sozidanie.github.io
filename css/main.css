@@ -1,14 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Lora');
 
-* {
+body {
+  font-family: 'Lora', 'Times New Roman', Serif;
   font-size: 20px;
-  font-family: 'Lora', serif;
 }
+
 p {
   margin: .5em 0;
 }
+
+footer {
+  color: #333;
+  font-size: 80%;
+  margin-top: 3em;
+}
+
+hr {
+  margin: 2em auto;
+  width: 75%;
+}
+
 section {
+  padding: 1em;
   text-align: center;
   width: 30em;
-  padding: 1em;
 }
