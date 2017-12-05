@@ -14,7 +14,7 @@ description: |
 
 Организация имеет название: Общественная Организация "Созидание".
 
-Адрес в сети: `www.sozidanie.org.ua`.
+Адрес в сети: [`www.sozidanie.org.ua`](http://www.sozidanie.org.ua)
 
 Facebook: [`@sozidanie.org.ua`](https://www.facebook.com/sozidanie.org.ua)
 
