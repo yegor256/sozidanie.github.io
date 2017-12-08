@@ -9,6 +9,10 @@ p {
   margin: .5em 0;
 }
 
+h1 {
+  line-height: 1.1em;
+}
+
 footer {
   color: #333;
   font-size: 80%;
@@ -26,8 +30,16 @@ section {
   width: 900px;
 }
 
+blockquote {
+  margin-bottom: 0;
+}
+
 .narrow {
   width: 600px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.disqus {
+  margin-top: 4em;
 }

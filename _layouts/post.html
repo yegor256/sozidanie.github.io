@@ -2,12 +2,12 @@
 layout: default
 ---
 
-<div>
+<div class="narrow">
   <h1>{{ page.title }}</h1>
   <div>{{ content }}</div>
 </div>
 
-<div role="complementary">
+<div class="disqus" role="complementary">
   <div id="disqus_thread" class="disqus-thread"></div>
   <script>
     var disqus_config = function () {
@@ -16,7 +16,7 @@ layout: default
     };
     (function() {
       var d = document, s = d.createElement('script');
-      s.src = '//sozidanie.disqus.com/embed.js';
+      s.src = '//sozidanieorgua.disqus.com/embed.js';
       s.setAttribute('data-timestamp', +new Date());
       (d.head || d.body).appendChild(s);
     })();
