@@ -4,6 +4,30 @@ layout: default
 
 <div class="narrow">
   <h1>{{ page.title }}</h1>
+  <div>
+    <nav class="buttons">
+      <a href="http://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}"
+        title="Поделитесь через Facebook" class="button" rel="nofollow">
+        <span class="count count-facebook">0</span>
+        <i class="icon socicon-facebook"></i></a>
+      <a href="https://twitter.com/share?url={{ site.url }}{{ page.url }}&amp;text={{ page.title | cgi_escape }}"
+        title="Поделитесь через Twitter" class="button" rel="nofollow">
+        <span class="count count-twitter">0</span>
+        <i class="icon socicon-twitter"></i></a>
+      <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}"
+        title="Поделитесь через Google+" class="button" rel="nofollow">
+        <span class="count count-googleplus">0</span>
+        <i class="icon socicon-googleplus"></i></a>
+      <a href="https://www.linkedin.com/cws/share?url={{ site.url }}{{ page.url }}"
+        title="Поделитесь через LinkedIn" class="button" rel="nofollow">
+        <span class="count count-linkedin">0</span>
+        <i class="icon socicon-linkedin"></i></a>
+      <a href="http://reddit.com/submit?url={{ site.url }}{{ page.url }}%3F{{ page.date | date: "%Y-%U" }}&amp;title={{ page.title | cgi_escape }}"
+        title="Поделись через Reddit" class="button" rel="nofollow">
+        <span class="count count-reddit">0</span>
+        <i class="icon socicon-reddit"></i></a>
+    </nav>
+  </div>
   <div>{{ content }}</div>
 </div>
 

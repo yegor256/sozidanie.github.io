@@ -50,11 +50,56 @@ blockquote {
    margin-left: 2em;
 }
 
-.top-icons a {
-  color: #555;
-  margin-right: .4em;
+  .top-icons a {
+    color: #555;
+    margin-right: .4em;
+  }
+
+  .top-icons a:hover {
+    text-decoration: none;
+  }
+
+.buttons {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
 }
 
-.top-icons a:hover {
-  text-decoration: none;
-}
+  .button {
+    position: relative;
+  }
+
+  .icon {
+    border: 1px solid gray;
+    border-radius: 50%;
+    color: gray;
+    display: inline-block;
+    height: 2.2em;
+    line-height: 1.4em;
+    margin-bottom: .2em;
+    margin-right: .2em;
+    padding: .4em;
+    text-align: center;
+    vertical-align: middle;
+    width: 2.2em;
+  }
+
+  .icon:hover {
+    background-color: #367ac3;
+    border-color: #367ac3;
+    color: white;
+  }
+
+  .count {
+    background-color: white;
+    border: 1px solid gray;
+    color: gray;
+    display: none;
+    font-family: monospace;
+    font-size: .6em;
+    line-height: 1em;
+    padding: 0 .2em;
+    position: absolute;
+    right: .3em;
+    top: -.7em;
+  }
