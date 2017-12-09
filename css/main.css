@@ -43,3 +43,17 @@ blockquote {
 .disqus {
   margin-top: 4em;
 }
+
+.top-icons {
+   vertical-align: middle;
+   margin-left: 2em;
+}
+
+.top-icons a {
+  color: #555;
+  margin-right: .4em;
+}
+
+.top-icons a:hover {
+  text-decoration: none;
+}
