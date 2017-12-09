@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lora');
 
 body {
+  background-color: #fdfdfd;
   font-family: 'Lora', 'Times New Roman', Serif;
   font-size: 20px;
 }
