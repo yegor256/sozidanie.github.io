@@ -25,7 +25,7 @@ description: |
 <input id="email" name="email" type="email" size="47" tabindex="2" placeholder="Email"/>
 <label for="telegram">Вы готовы активно помогать нам? Если да,
 то как Вас найти в <a href="https://telegram.org/">Telegram</a>
-(наш Актив общается в Telegram чате)?</label>
+(наш Актив общается в Telegram группе)?</label>
 <input id="telegram" name="telegram" type="text" size="30" tabindex="3" placeholder="Телефон или ID"/>
 <button type="submit" tabindex="4">Отправить</button>
 </fieldset>
