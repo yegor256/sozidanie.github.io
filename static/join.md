@@ -19,12 +19,12 @@ description: |
 <input type="hidden" name="_next" value="http://www.sozidanie.org.ua/thanks.html"/>
 <input type="hidden" name="_subject" value="new member"/>
 <input type="hidden" name="_format" value="text"/>
-<label for="name">Как Вас зовут (имя и фамилия)?</label>
-<input id="name" name="name" type="text" size="35"/>
+<label for="name">Как Вас зовут?</label>
+<input id="name" name="name" type="text" size="35" tabindex="1" placeholder="Имя и фамилия" autofocus="autofocus"/>
 <label for="telegram">Вы готовы активно помогать нам? Если да,
 то как Вас найти в <a href="https://telegram.org/">Telegram</a>
 (наш Актив общается в Telegram чате)?</label>
-<input id="telegram" name="telegram" type="text" size="30"/>
+<input id="telegram" name="telegram" type="text" size="30" tabindex="2" placeholder="Телефон или ID"/>
 <button type="submit">Отправить</button>
 </fieldset>
 </form>
