@@ -21,11 +21,13 @@ description: |
 <input type="hidden" name="_format" value="text"/>
 <label for="name">Как Вас зовут?</label>
 <input id="name" name="name" type="text" size="35" tabindex="1" placeholder="Имя и фамилия" autofocus="autofocus"/>
+<label for="email">Как с Вами связаться?</label>
+<input id="email" name="email" type="email" size="47" tabindex="2" placeholder="Email"/>
 <label for="telegram">Вы готовы активно помогать нам? Если да,
 то как Вас найти в <a href="https://telegram.org/">Telegram</a>
 (наш Актив общается в Telegram чате)?</label>
-<input id="telegram" name="telegram" type="text" size="30" tabindex="2" placeholder="Телефон или ID"/>
-<button type="submit">Отправить</button>
+<input id="telegram" name="telegram" type="text" size="30" tabindex="3" placeholder="Телефон или ID"/>
+<button type="submit" tabindex="4">Отправить</button>
 </fieldset>
 </form>
 
