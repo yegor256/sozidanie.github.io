@@ -27,7 +27,15 @@ description: |
 то как Вас найти в <a href="https://telegram.org/">Telegram</a>
 (наш Актив общается в Telegram группе)?</label>
 <input id="telegram" name="telegram" type="text" size="30" tabindex="3" placeholder="Телефон или ID"/>
-<button type="submit" tabindex="4">Отправить</button>
+<input id="agree" type="checkbox" name="agree" tabindex="4"/>
+<label for="agree">
+Отметьте здесь, если Вы согласны с нашей
+<a href="/program.html">Программой</a>
+и
+<a href="/bylaws.html">Уставом</a>.
+В противном случае нам не по пути.
+</label>
+<button type="submit" tabindex="5">Отправить</button>
 </fieldset>
 </form>
 
