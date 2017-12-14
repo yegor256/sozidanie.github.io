@@ -26,7 +26,7 @@ description: |
 <label for="telegram">Вы готовы активно помогать нам? Если да,
 то как Вас найти в <a href="https://telegram.org/">Telegram</a>
 (наш Актив общается в Telegram группе)?</label>
-<input id="telegram" name="telegram" type="text" size="30" tabindex="3" placeholder="Телефон или ID"/>
+<input id="telegram" name="telegram" type="text" size="30" tabindex="3" placeholder="Телефон или Telegram ID"/>
 <input id="agree" type="checkbox" name="agree" tabindex="4"/>
 <label for="agree">
 Отметьте здесь, если Вы согласны с нашей
@@ -42,3 +42,6 @@ description: |
 Заполните эту форму и Вы автоматически станете членом нашей организации.
 Если Вы указали, что готовы стать частью нашего Актива,
 мы свяжемся с Вами в ближайшие несколько дней в Telegram.
+
+Обратите внимание, мы нигде не публикуем сведения о членах нашей
+организации и не передаем информацию о них никаким третьим лицам.
