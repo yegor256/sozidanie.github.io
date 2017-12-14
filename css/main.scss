@@ -1,3 +1,7 @@
+---
+---
+@charset 'utf-8';
+
 @import url('https://fonts.googleapis.com/css?family=Lora');
 
 body {
@@ -46,34 +50,29 @@ section {
 .top-icons {
   vertical-align: middle;
   margin-left: 2em;
-}
 
   @media (max-width: 700px) {
-    .top-icons {
-      display: block;
-      margin: 1em 0;
-    }
+    display: block;
+    margin: 1em 0;
   }
 
-  .top-icons a {
+  a {
     color: #555;
     margin-right: .4em;
-  }
 
-  .top-icons a:hover {
-    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+    }
   }
+}
 
 .buttons {
   display: inline-block;
   text-align: left;
   vertical-align: middle;
-}
 
   @media (max-width: 700px) {
-    .buttons {
-      display: none;
-    }
+    display: none;
   }
 
   .button {
@@ -93,12 +92,12 @@ section {
     text-align: center;
     vertical-align: middle;
     width: 2.2em;
-  }
 
-  .icon:hover {
-    background-color: #367ac3;
-    border-color: #367ac3;
-    color: white;
+    &:hover {
+      background-color: #367ac3;
+      border-color: #367ac3;
+      color: white;
+    }
   }
 
   .count {
@@ -114,3 +113,5 @@ section {
     right: .3em;
     top: -.7em;
   }
+}
+
