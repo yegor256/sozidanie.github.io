@@ -70,6 +70,12 @@ section {
   vertical-align: middle;
 }
 
+  @media (max-width: 700px) {
+    .buttons {
+      display: none;
+    }
+  }
+
   .button {
     position: relative;
   }
