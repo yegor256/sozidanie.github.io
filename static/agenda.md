@@ -47,5 +47,7 @@ description: |
   * Запрещать ли криптовалюты?
 
 Если хотите добавить тему,
-вносите изменения прямо в эту страницу на GitHub:
+вносите изменения прямо в
 [agenda.md](https://github.com/yegor256/sozidanie.github.io/edit/master/static/agenda.md)
+на GitHub.
+
