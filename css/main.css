@@ -44,10 +44,16 @@ section {
 }
 
 .top-icons {
-  display: inline-block;
   vertical-align: middle;
   margin-left: 2em;
 }
+
+  @media (max-width: 700px) {
+    .top-icons {
+      display: block;
+      margin: 1em 0;
+    }
+  }
 
   .top-icons a {
     color: #555;
