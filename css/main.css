@@ -44,8 +44,9 @@ section {
 }
 
 .top-icons {
-   vertical-align: middle;
-   margin-left: 2em;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 2em;
 }
 
   .top-icons a {
