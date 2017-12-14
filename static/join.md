@@ -1,7 +1,7 @@
 ---
 layout: static
 permalink: /join.html
-title: "Присоединяйтесь"
+title: "Присое&shy;ди&shy;няй&shy;тесь"
 date: 2017-12-12
 description: |
   Заполняйте форму на этой странице и становитесь членом
