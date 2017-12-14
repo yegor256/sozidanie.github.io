@@ -6,12 +6,12 @@ body {
   font-size: 20px;
 }
 
-p {
-  margin: .5em 0;
-}
-
 h1 {
   line-height: 1.1em;
+}
+
+blockquote p {
+  margin-bottom: 0;
 }
 
 footer {
@@ -30,10 +30,6 @@ section {
   text-align: center;
   width: 900px;
   max-width: 100%;
-}
-
-blockquote {
-  margin-bottom: 0;
 }
 
 .narrow {
